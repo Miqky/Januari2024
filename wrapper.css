@@ -1,0 +1,17 @@
+.wrapper {
+	width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.wrapper-footer {
+    width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+.wrapper-copyright {
+    width: 1375px;
+    margin: auto;
+    position: relative;
+}

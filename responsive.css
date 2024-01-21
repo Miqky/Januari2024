@@ -1,0 +1,126 @@
+/* ukuran tablet */
+@media screen and (max-width: 768px) {
+    nav ul {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50%;
+        height: 100vh;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        z-index: -1;
+        transform: translateX(100%);
+        transition: all 1s;
+        opacity: 0;
+    }
+
+    nav ul.slide {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* ukuran mobile */
+@media screen and (max-width: 800px) {
+	.wrapper {
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .slide {
+    	width: 100%;
+    }
+
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    nav ul {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 80%;
+        height: 100vh;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        z-index: -1;
+        transform: translateX(100%);
+        transition: all 1s;
+        opacity: 0;
+    }
+
+    nav ul.slide {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .kartu-tutor {
+        width: 50%;
+    }
+
+    .kartu-partner {
+        width: 50%;
+    }
+
+    /* Konten Breakpoint */
+    #home {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #home img {
+        width: 100%;
+    }
+
+    #courses {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #courses img {
+        width: 100%;
+    }
+
+    .footer-section p {
+        width: 20%;
+    }
+
+    .footer-section {
+        width: 100%;
+        margin-left: 50px;
+    }
+
+    .footer {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .text-small {
+        width: 100%;
+        flex-direction: column;
+        flex-direction: center;
+    }
+
+    .text-small input {
+        width: 20%;
+    }
+
+    .text-big {
+        width: 20%;
+    }
+    .text-big input {
+        width: 100%;
+    }
+
+    iframe {
+ 	  	width: 100%;
+    }
+}
